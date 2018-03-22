@@ -1,0 +1,17 @@
+.TitleBar{
+		
+}
+.logo{
+	background-color: black;
+	padding-left: 10px;
+}
+.buttons{
+	background-color: #555555;
+	height:35px;
+	border: none;
+	color: white;
+}
+body{
+	text-align:center;
+	color: white;
+}
