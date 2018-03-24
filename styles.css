@@ -10,22 +10,69 @@
 }
 body{
 	text-align:center;
-	color: white;
+	color: black;
+    font-family: Arial;
 }
-.main_Body_Image{
-    background-image: url(head.jpg);
-    width: 900px;
-    height: 350px;
 
+.main_Body{
+    margin-top: 35px;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 900px;
+    height: 352px;
+    border: 1px solid #eee;
     
+}   
+.main_Body_Image{
+    margin-top: 5px;
+    
+}    
+.bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: greenyellow;
+    text-align: left;
+    color: white;
+    background-color: black;
+    width: 880px;
+    font-size: 14px;
     
 }
-.main_Body{
+.lorem_table{
     width: 900px;
-	height: 350px;
-}   
-    
-.main_Body_Text{
-  background-image: url(head.jpg);
-  margin-top: 100px;
-}   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 13.5px;
+} 
+
+.td_margin_1{
+    padding: 0px 0px 0px 40px;
+}
+.td_margin{
+    padding: 10px 0px 0px 40px;
+}
+.lorem_Back_1{
+    background-image: url("icon_info.png");
+    background-repeat: no-repeat;
+    background-position: left ;
+    padding: 0px 0px 0px 40px;
+}
+.lorem_Back_2{
+    background-image: url("icon_info.png");
+    background-repeat: no-repeat;
+    background-position: left ;
+    padding: 0px 0px 0px 40px;
+}
+.lorem_Back_3{
+    background-image: url("icon_info.png");
+    background-repeat: no-repeat;
+    background-position: left ;
+    padding: 0px 0px 0px 40px;
+}
