@@ -1,12 +1,27 @@
 .logo{
 	background-color: black;
-	padding-right: 150px;
+	text-align: left;
+    height: 75px;
+    padding-top: 15px;
+}
+.container_1{
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.container_2{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .buttons{
-	background-color: #555555;
-	height:35px;
+	background-color: #3c4342;
+	height:32px;
 	border: none;
 	color: white;
+    text-align: left;
 }
 body{
 	text-align:center;
@@ -21,9 +36,10 @@ body{
     margin-left: auto;
     margin-right: auto;
     color: white;
-    width: 900px;
+    width: 910px;
     height: 352px;
-    border: 1px solid #eee;
+    border: 1.5px solid #eee;
+    
     
 }   
 .main_Body_Image{
@@ -32,16 +48,18 @@ body{
 }    
 .bottom-left {
     position: absolute;
-    bottom: 15px;
-    left: 0px;
+    bottom: 5px;
+    left: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    color: greenyellow;
+    padding-top: 20px;
     text-align: left;
-    color: white;
-    background-color: black;
+    color: lightgray;
+    background-image: url("bg_text.png");
     width: 880px;
-    font-size: 14px;
+    height: 50px;
+    font-size: 12px;
+    
     
 }
 .lorem_table{
@@ -49,7 +67,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    font-size: 13.5px;
+    font-size: 12px;
 } 
 
 .td_margin_1{
@@ -73,6 +91,17 @@ body{
 .lorem_Back_3{
     background-image: url("icon_info.png");
     background-repeat: no-repeat;
-    background-position: left ;
+    background-position: left;
     padding: 0px 0px 0px 40px;
+}
+.sign{
+    font-size: 12px;
+    background-color: black;
+    color: lightgray;
+    width: 915px;
+    padding-left: 5px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
